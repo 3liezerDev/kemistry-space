@@ -1,15 +1,14 @@
 
-
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header';
+import  Rutas  from './routes/Rutas';
 function App() {
-
-
   return (
-    <>
-      <h1 className="text-6xl text-blue-500 text-center font-semibold">
-        FLOFITTA TAILWIND FUNCIONA
-      </h1>
-    </>
-  )
+    <BrowserRouter>
+    <Header></Header>
+    <Rutas></Rutas>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
