@@ -10,10 +10,6 @@ export const Contact = () => {
     border: "3px solid #ECEFF1",
   };
 
-  const placeholderStyle = {
-    color: "#ECEFF1",
-  };
-
   return (
     <div className="flex justify-center items-center flex-col h-screen">
       <div className="m-10 w-3/5 px-3">

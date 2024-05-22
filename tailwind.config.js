@@ -71,6 +71,12 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        'seollal': "url('/public/img/Seollal.jpg')",
+        'chuseok': "url('/public/img/chuseok.jpeg')",
+        'flag':"url('/public/img/koreanday.jpg')",
+        'restaurant': "url('/public/img/restaurant.jpg)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
