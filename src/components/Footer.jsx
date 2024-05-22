@@ -19,19 +19,19 @@ function Footer() {
                 <div >
                     <NavigationMenu >
                     <NavigationMenuList className="flex space-x-4" >
-                        <NavigationMenuItem >
-                            <FontAwesomeIcon className="text-white hover:text-pink-600" icon={faInstagram} size="2x" />
+                        <NavigationMenuItem className="cursor-pointer" >
+                            <FontAwesomeIcon className="text-white hover:text-pink-600 " icon={faInstagram} size="2x" />
                             <NavigationMenuContent>
                                 <NavigationMenuLink href="https://www.instagram.com" isExternal/>
                             </NavigationMenuContent>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem >
+                        </NavigationMenuItem >
+                        <NavigationMenuItem className="cursor-pointer">
                             <FontAwesomeIcon className="text-white hover:text-pink-600"  icon={faTiktok} size="2x" />
                             <NavigationMenuContent>
                                 <NavigationMenuLink></NavigationMenuLink>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
-                        <NavigationMenuItem >
+                        <NavigationMenuItem className="cursor-pointer" >
                             <FontAwesomeIcon className="text-white hover:text-pink-600"  icon={faFacebook} size="2x" />
                             <NavigationMenuContent>
                                 {" "}
@@ -42,11 +42,11 @@ function Footer() {
                 </NavigationMenu>
                 </div>
                 <div className="flex flex-row space-x-4">
-                    <p className="text-white text-xl hover:text-pink-600">terms & conditions</p>
-                    <p className="text-white text-xl hover:text-pink-600">policy & privacy</p>
+                    <p className="text-white text-xl hover:text-pink-600 cursor-pointer">terms & conditions</p>
+                    <p className="text-white text-xl hover:text-pink-600 cursor-pointer">policy & privacy</p>
                 </div>
                 <div>
-                    <p className="text-white text-xl hover:text-pink-600">© all rights reserved</p>
+                    <p className="text-white text-xl hover:text-pink-600 cursor-pointer">© all rights reserved</p>
                 </div>
             </div>
         </>
