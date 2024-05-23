@@ -64,7 +64,7 @@ export const Kevents = () => {
                     Festival ! Join us to honor our ancestors and share moments
                     of joy and gratitude with your loved ones. Experience the
                     magic of Chuseok with , delightful feasts, and a celebration
-                    full of family bonds. Don't miss out on this unique
+                    full of family bonds.Don't miss out on this unique
                     experience!
                   </p>
                 </div>
