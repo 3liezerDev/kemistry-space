@@ -2,7 +2,7 @@
 const routesConfig = {
     '/': {
       image: '/src/assets/images/Banner-home.jpg',
-      title: 'HOME',
+      title: 'NEXT EVENT STARTS IN',
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lorem in mi semper vulputate in ac lacus. Nullam scelerisque molestie justo, quis sagittis lectus interdum sed. Quisque eu arcu tincidunt, mollis felis ac, congue turpis. Integer vitae justo semper, tincidunt elit ut, eleifend mauris. Nulla aliquam nunc eget est ullamcorper, faucibus maximus risus laoreet. Sed eget luctus ex. Sed laoreet erat ac vulputate lacinia. Suspendisse placerat massa vitae diam accumsan rhoncus. ',
     },
     '/about': {

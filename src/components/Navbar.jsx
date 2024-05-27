@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="bg-black bg-opacity-50 shadow-md absolute w-full">
     <div className="container w-[80%] mx-auto flex items-center justify-between">
       <Link to="/" className="flex items-center">
-        <img src="../../public/kemistry-logo.svg" alt="Kemistry Space Logo" className="h-24" />
+        <img src="../../public/img/logo-kemi.png" alt="Kemistry Space Logo" className="h-24" />
       </Link>
       <ul className="flex items-center space-x-6">
         <li><Link to="/about" className={getLinkClasses('/about')}>ABOUT</Link></li>
